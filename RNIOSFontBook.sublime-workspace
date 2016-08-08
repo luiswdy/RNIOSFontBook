@@ -1,0 +1,785 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"navi",
+				"navigationBar"
+			],
+			[
+				"font",
+				"fontName"
+			],
+			[
+				"pro",
+				"props	React: this.props."
+			],
+			[
+				"ren",
+				"render"
+			],
+			[
+				"My",
+				"MyMixin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.ios.js",
+			"settings":
+			{
+				"buffer_size": 182,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/RNIOSFontBook.js",
+			"settings":
+			{
+				"buffer_size": 2140,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "node_modules/react-native/Libraries/CustomComponents/Navigator/Navigator.js",
+			"settings":
+			{
+				"buffer_size": 45563,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/luiswu/workspace/RNIOSFontBook",
+		"/Users/luiswu/workspace/RNIOSFontBook/js"
+	],
+	"file_history":
+	[
+		"/Users/luiswu/Desktop/f8app/node_modules/babel-plugin-react-transform/test/fixtures/code-react-create-class-with-dynamic-display-name/actual.js",
+		"/Users/luiswu/Desktop/f8app/node_modules/react-native/Libraries/AppRegistry/AppRegistry.js",
+		"/Users/luiswu/Desktop/f8app/node_modules/.bin/react-native",
+		"/Users/luiswu/Desktop/f8app/index.android.js",
+		"/Users/luiswu/Desktop/f8app/android/app/src/main/java/com/facebook/f8/MainActivity.java",
+		"/Users/luiswu/Desktop/f8app/android/app/react.gradle",
+		"/Users/luiswu/Desktop/f8app/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/ReactActivity.java",
+		"/Users/luiswu/Desktop/f8app/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/ReactRootView.java",
+		"/Users/luiswu/Desktop/f8app/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/RootView.java",
+		"/Users/luiswu/Desktop/f8app/node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/ReactInstanceManagerImpl.java",
+		"/Users/luiswu/Desktop/f8app/android/app/build.gradle",
+		"/Users/luiswu/Desktop/f8app/f8app.sublime-project",
+		"/Users/luiswu/Desktop/f8app/js/setup.js",
+		"/Users/luiswu/Desktop/f8app/node_modules/jest-cli/.haste_cache/preprocess-cache/12/ReactMount_123f937be3938e61c7bbcd254c9477e5",
+		"/Volumes/Secrets/OtherWebServiceAccounts/Accounts.txt",
+		"/Users/luiswu/Desktop/TWSL/code/Laravel/app/Http/routes.php",
+		"/Users/luiswu/Desktop/TWSL/code/Laravel/bootstrap/app.php",
+		"/Users/luiswu/Desktop/TWSL/code/Laravel/artisan",
+		"/Users/luiswu/Downloads/The.Lobster.2015.WEB-DL.chs.srt",
+		"/Users/luiswu/Desktop/TWSL/notes.txt",
+		"/Users/luiswu/Desktop/TWSL/twsl.sql",
+		"/Users/luiswu/Desktop/f8app/index.ios.js",
+		"/Users/luiswu/Desktop/f8app/README.md",
+		"/Users/luiswu/Desktop/亞秀網站相關資料/twsl.cc/readme.md",
+		"/Users/luiswu/Desktop/亞秀網站相關資料/Note",
+		"/Users/luiswu/Desktop/twsl.cc/server.php",
+		"/Users/luiswu/Desktop/gauge/GaugeKit/.travis.yml",
+		"/Users/luiswu/Desktop/README.md",
+		"/Users/luiswu/Desktop/1.為什麼會對 Dinngo 有興趣？",
+		"/Users/luiswu/Downloads/BLOCKSJNI-App/app/src/main/java/com/blocks/blocksjni_app/BLOCKSModuleCom.java",
+		"/Users/luiswu/Downloads/BLOCKSJNI-App/app/src/test/java/com/blocks/blocksjni_app/ExampleUnitTest.java",
+		"/Users/luiswu/workspace/Playgrounds/ScaleAndRotate.playground/Contents.swift",
+		"/Users/luiswu/Desktop/moviewebservice-1st try/MovieWebService/AppDelegate.m",
+		"/Users/luiswu/Desktop/Observations",
+		"/Users/luiswu/Desktop/Profile",
+		"/Users/luiswu/Desktop/Agoda面試資料/職缺網址",
+		"/Users/luiswu/workspace/ysmapp/src/store/configureStore.js",
+		"/Users/luiswu/workspace/ysmapp/src/reducers/areas.js",
+		"/Users/luiswu/workspace/ysmapp/src/Root.js",
+		"/Users/luiswu/workspace/ysmapp/src/reducers/route.js",
+		"/Users/luiswu/workspace/ysmapp/src/reducers/categories.js",
+		"/Users/luiswu/workspace/ysmapp/src/reducers/index.js",
+		"/Users/luiswu/workspace/ysmapp/src/reducers/item.js",
+		"/Users/luiswu/workspace/ysmapp/src/utils/navAwarable.js",
+		"/Users/luiswu/workspace/ysmapp/src/actions/areas.js",
+		"/Users/luiswu/workspace/ysmapp/src/utils/createReducer.js",
+		"/Users/luiswu/workspace/ysmapp/src/routers/index.js",
+		"/Users/luiswu/workspace/ysmapp/src/App.js",
+		"/Users/luiswu/workspace/ysmapp/src/containers/EntryScene.js",
+		"/Users/luiswu/workspace/ysmapp/node_modules/react/lib/ReactPerf.js",
+		"/Users/luiswu/workspace/ysmapp/src/actions/route.js",
+		"/Users/luiswu/workspace/ysmapp/src/routers/home.js",
+		"/Users/luiswu/workspace/ysmapp/src/routers/base.js",
+		"/Users/luiswu/workspace/ysmapp/node_modules/crossroads/dist/crossroads.js",
+		"/Users/luiswu/Desktop/test-javascript/index.html",
+		"/Users/luiswu/Desktop/test-javascript/test.js",
+		"/Users/luiswu/workspace/ysmapp/node_modules/react/lib/ReactComponent.js",
+		"/Users/luiswu/workspace/ysmapp/node_modules/react-native/Libraries/ReactNative/ReactNative.js",
+		"/Users/luiswu/workspace/ysmapp/node_modules/redux-thunk/src/index.js",
+		"/Users/luiswu/workspace/ysmapp/node_modules/react/dist/react.js",
+		"/Users/luiswu/workspace/ysmapp/node_modules/react/lib/ReactNativeComponent.js",
+		"/Users/luiswu/Desktop/12:32:25 PM Gradle sync started",
+		"/Users/luiswu/workspace/ysmapp/node_modules/react-native/Libraries/JavaScriptAppEngine/System/JSTimers/JSTimers.js",
+		"/Users/luiswu/workspace/ysmapp/src/containers/StoreMainTabView.js",
+		"/Users/luiswu/workspace/ysmapp/index.ios.js",
+		"/Users/luiswu/workspace/ysmapp/android/app/build.gradle",
+		"/Users/luiswu/workspace/ysmapp/android_bak/app/build.gradle",
+		"/Users/luiswu/workspace/ysmapp/android_bak/app/src/main/AndroidManifest.xml",
+		"/Users/luiswu/Desktop/ysmapp/android/app/build/outputs/apk/app-debug/classes.dex",
+		"/Users/luiswu/workspace/ysmapp/android/app/build/outputs/apk/app-debug/AndroidManifest.xml",
+		"/Users/luiswu/Desktop/ysmapp/android/gradle.properties",
+		"/Users/luiswu/workspace/ysmapp/android/build.gradle",
+		"/Users/luiswu/Desktop/diff.txt",
+		"/Volumes/SP PHD U3/Biideal backups/home/ysmapp/android/app/src/main/AndroidManifest.xml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"height",
+			"bar",
+			"constructor(",
+			"constructor",
+			"NativeModules",
+			"connect",
+			"createClass",
+			"React",
+			"attachMeasuredRootView",
+			"getPackages",
+			"getJSBundleFile",
+			"index.android",
+			"createRootView",
+			"getMainComponentName",
+			"getpackages",
+			"CodePush",
+			"F8v2",
+			"registerComponent",
+			"upwork",
+			"leetcode",
+			"face",
+			"facebook",
+			"github",
+			"redmine",
+			"misfit",
+			"486",
+			"map",
+			"here",
+			"linked",
+			"job",
+			"活動",
+			"通",
+			"活動",
+			"accupa",
+			"book",
+			"ㄖㄜ",
+			"博客",
+			"tech",
+			"1111",
+			"bridge",
+			"techbr",
+			"yes",
+			"104",
+			"medium",
+			"createReducer",
+			"url: \"/\"",
+			"isBack",
+			"backRou",
+			"./route",
+			"isReplace",
+			"defaultMap",
+			"\"/\"",
+			"updateState",
+			"shouldUpdateState",
+			"\"/\"",
+			"\"/'",
+			"url: \"/\"",
+			"exNavigator.pop()",
+			"Root",
+			"<Root",
+			"stat",
+			"pop()",
+			".props.",
+			"createReducer",
+			"_crossroadsRouteMatched",
+			"RouteBase",
+			"RouteEntry",
+			"RouteClass",
+			"PATTERN",
+			"ExNavigator",
+			"ExNavigatorMixin",
+			"mixin",
+			"replace(",
+			"func",
+			"replace",
+			"Component: ReactComponent",
+			"thunkMiddleware",
+			"createStoreWithMiddleware",
+			"configureStore",
+			"createReducer",
+			"isReplace",
+			"/main",
+			"componentWillReceiveProps",
+			"ref",
+			"getSettingsRoute",
+			"getSetting",
+			"class React",
+			"class Component",
+			"React.Component",
+			"didMount",
+			"didMoint",
+			"isHomeRoute",
+			"_crossroadsRouteMatched",
+			"RouteEntry",
+			"Component",
+			"pebble",
+			"medium",
+			"lintOp",
+			"lintO",
+			"android",
+			"MainActivity.java"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.ios.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 67
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/RNIOSFontBook.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1572,
+								1757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_visual",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 47
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 460.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "node_modules/react-native/Libraries/CustomComponents/Navigator/Navigator.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45563,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2906,
+								2912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 15
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 577.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "RNIOSFontBook.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"navigator",
+				"node_modules/react-native/Libraries/CustomComponents/Navigator/Navigator.js"
+			],
+			[
+				"redux.js",
+				"node_modules/redux/dist/redux.js"
+			],
+			[
+				"f8navi",
+				"js/F8Navigator.js"
+			],
+			[
+				"appre",
+				"node_modules/react-native/Libraries/AppRegistry/AppRegistry.js"
+			],
+			[
+				"react-native",
+				"node_modules/.bin/react-native"
+			],
+			[
+				"react",
+				"node_modules/react/react.js"
+			],
+			[
+				"f8app",
+				"js/F8App.js"
+			],
+			[
+				"env",
+				"js/env.js"
+			],
+			[
+				"configuresto",
+				"js/store/configureStore.js"
+			],
+			[
+				"setup.js",
+				"js/setup.js"
+			],
+			[
+				"index.ios.js",
+				"index.ios.js"
+			],
+			[
+				"rootview",
+				"node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/uimanager/RootView.java"
+			],
+			[
+				"reactrootvew",
+				"node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/ReactRootView.java"
+			],
+			[
+				"reactrootview",
+				"node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/ReactRootView.java"
+			],
+			[
+				"reacactivi",
+				"node_modules/react-native/ReactAndroid/src/main/java/com/facebook/react/ReactActivity.java"
+			],
+			[
+				"entrys",
+				"containers/EntryScene.js"
+			],
+			[
+				"root.",
+				"Root.js"
+			],
+			[
+				"base.j",
+				"routers/base.js"
+			],
+			[
+				"home",
+				"routers/home.js"
+			],
+			[
+				"routers/index",
+				"routers/index.js"
+			],
+			[
+				"item.js",
+				"reducers/item.js"
+			],
+			[
+				"categories",
+				"reducers/categories.js"
+			],
+			[
+				"areas",
+				"reducers/areas.js"
+			],
+			[
+				"app.",
+				"App.js"
+			],
+			[
+				"reduc",
+				"utils/createReducer.js"
+			],
+			[
+				"root.js",
+				"Root.js"
+			],
+			[
+				"cross",
+				"node_modules/crossroads/dist/crossroads.js"
+			],
+			[
+				"router/index",
+				"src/routers/index.js"
+			],
+			[
+				"exna",
+				"node_modules/@exponent/react-native-navigator/ExNavigator.js"
+			],
+			[
+				"exroute",
+				"node_modules/@exponent/react-native-navigator/ExRoute.js"
+			],
+			[
+				"exrouter",
+				"node_modules/@exponent/react-native-navigator/ExRouteRenderer.js"
+			],
+			[
+				"exnavi",
+				"node_modules/@exponent/react-native-navigator/ExNavigator.js"
+			],
+			[
+				"component",
+				"node_modules/react/lib/ReactNativeComponent.js"
+			],
+			[
+				"navi",
+				"containers/StoreMainTabView.js"
+			],
+			[
+				"entryse",
+				"containers/EntryScene.js"
+			],
+			[
+				"ent",
+				"containers/EntryScene.js"
+			],
+			[
+				"router",
+				"routers/index.js"
+			],
+			[
+				"app",
+				"App.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 47.0,
+		"last_filter": "RouteEntry",
+		"selected_items":
+		[
+			[
+				"RouteEntry",
+				"RouteEntry"
+			],
+			[
+				"getex",
+				"getExRoute"
+			],
+			[
+				"getEx",
+				"getExRoute"
+			],
+			[
+				"renders",
+				"renderScene"
+			],
+			[
+				"renderS",
+				"renderScene"
+			],
+			[
+				"navA",
+				"navAwarable"
+			],
+			[
+				"createR",
+				"createReducer"
+			],
+			[
+				"AppRot",
+				"AppRouter"
+			],
+			[
+				"config",
+				"configureStore"
+			],
+			[
+				"maps",
+				"mapStateToProps"
+			],
+			[
+				"backRoute",
+				"backRoute"
+			],
+			[
+				"on",
+				"onWillBlur"
+			],
+			[
+				"En",
+				"EntryScene"
+			],
+			[
+				"getExRoute",
+				"getExRoute"
+			],
+			[
+				"renderSc",
+				"renderScene"
+			],
+			[
+				"RouteBase",
+				"RouteBase"
+			],
+			[
+				"jump",
+				"jump"
+			],
+			[
+				"pop",
+				"pop"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Users/luiswu/workspace/RNIOSFontBook/js"
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 293.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
