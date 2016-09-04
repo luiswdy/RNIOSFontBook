@@ -28,26 +28,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.ios.js",
-			"settings":
-			{
-				"buffer_size": 182,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "js/RNIOSFontBook.js",
 			"settings":
 			{
-				"buffer_size": 2140,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "node_modules/react-native/Libraries/CustomComponents/Navigator/Navigator.js",
-			"settings":
-			{
-				"buffer_size": 45563,
+				"buffer_size": 1925,
 				"line_ending": "Unix"
 			}
 		}
@@ -122,6 +106,9 @@
 	],
 	"file_history":
 	[
+		"/Users/luiswu/Documents/Honestbee/Code tracing notes",
+		"/Users/luiswu/workspace/RNIOSFontBook/node_modules/react-native/Libraries/CustomComponents/Navigator/Navigator.js",
+		"/Users/luiswu/workspace/RNIOSFontBook/index.ios.js",
 		"/Users/luiswu/Desktop/f8app/node_modules/babel-plugin-react-transform/test/fixtures/code-react-create-class-with-dynamic-display-name/actual.js",
 		"/Users/luiswu/Desktop/f8app/node_modules/react-native/Libraries/AppRegistry/AppRegistry.js",
 		"/Users/luiswu/Desktop/f8app/node_modules/.bin/react-native",
@@ -214,6 +201,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"LAST",
 			"height",
 			"bar",
 			"constructor(",
@@ -332,69 +320,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.ios.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								181,
-								181
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 67
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "js/RNIOSFontBook.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2140,
+						"buffer_size": 1925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1572,
-								1757
+								963,
+								963
 							]
 						],
 						"settings":
@@ -407,7 +350,7 @@
 								"_vintageous_processing_notation": false,
 								"action": null,
 								"action_count": "",
-								"mode": "mode_visual",
+								"mode": "mode_normal",
 								"motion": null,
 								"motion_count": "",
 								"must_capture_register_name": false,
@@ -415,57 +358,14 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 47
+								"xpos": 99
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 460.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "node_modules/react-native/Libraries/CustomComponents/Navigator/Navigator.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45563,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2906,
-								2912
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 15
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 577.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -770,7 +670,7 @@
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/luiswu/workspace/RNIOSFontBook/js"
+			"_cmdline_cd": "/Applications/Sublime Text.app/Contents/MacOS"
 		}
 	},
 	"show_minimap": true,

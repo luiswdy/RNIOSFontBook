@@ -14,6 +14,7 @@ import UIKit
       for family in UIFont.familyNames().sort() {
         for font in UIFont.fontNamesForFamilyName(family).sort() {
           fonts.append(font)
+          print("Font family: \(family), font name: \(font)")
         }
       }
       return fonts
