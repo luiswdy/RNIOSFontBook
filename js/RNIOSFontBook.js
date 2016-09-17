@@ -1,7 +1,8 @@
 'use strict '
 
 import React, { Component } from 'react'
-import FontCell from './FontCell'
+import FontList from './FontList'
+import FontDetail from './FontDetail'
 import {
   StyleSheet,
   Text,
@@ -19,29 +20,21 @@ var NavIdxEnum = {
 Object.freeze(NavIdxEnum)
 
 class RNIOSFontBook extends Component {
-  constructor(props) {
-    super(props);
-    let dataSource = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    this.state = { dataSource: dataSource.cloneWithRows(props.fonts) };
-  }
-
   render() {
     return (
       <Navigator
+        style={{flex: 1}}
         initialRoute={ {title: "System Fonts", index: 0}  }
         renderScene={ (route, navigator) => 
           {
             switch (route.index) {
               case NavIdxEnum.ListViewIdx:
-                return <ListView
-                style={{ marginTop: 50,
-                     padding: 15,
-                     flex: 1}}  // this property keeps list view's row not hidden by nav bar
-                  dataSource={this.state.dataSource}
-                  renderRow={(rowData) => <FontCell navigator={navigator} fontName={rowData}/>} />
+                return <FontList
+                  dataSource={new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2}).cloneWithRows(this.props.fonts)}
+                  navigator={navigator} />
                 break
               case NavIdxEnum.DetailIdx:
-                return <View style={styles.container}><Text  style={{    textAlign: 'center'}}>Hello</Text></View>
+                return <FontDetail route={route}/>
                 break
               default:
                 break

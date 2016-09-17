@@ -11,8 +11,8 @@ import UIKit
 @objc class FontHelper: NSObject {
     static let fonts: [String] = {
       var fonts: [String] = []
-      for family in UIFont.familyNames().sort() {
-        for font in UIFont.fontNamesForFamilyName(family).sort() {
+      for family in UIFont.familyNames.sorted() {
+        for font in UIFont.fontNames(forFamilyName: family).sorted() {
           fonts.append(font)
           print("Font family: \(family), font name: \(font)")
         }
