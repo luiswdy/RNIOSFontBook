@@ -1,15 +1,27 @@
 //@flow
 'use strict'
 import React, { Component } from 'react'
-import { View, Text, TextInput, Slider } from 'react-native'
+import { View, Text, TextInput, Slider, Dimensions } from 'react-native'
 
 class FontDetail extends Component {
+	constructor(props) {
+	  super(props);
+
+	  this.state = {fontSize: 16, };
+	}
+
 	render() {
 		return (
-			<View style={{ padding: 15, flex: 1, flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#F5FCFF'}}>
-				<Text style={{flex: 1, fontFamily: this.props.route.fontFamily, fontSize: 18, textAlign: 'center'}}>{this.props.route.fontFamily}</Text>
-				<Slider style={{flex: 1}} minimumValue={1} maximumValue={300} value={16} />
-				<TextInput style={{flex: 8, fontFamily: this.props.route.fontFamily, borderWidth: 1, borderRadius: 5}} placeholder="Type your sample text here" multipleline={true}/>
+			<View style={{ padding: 15, flex: 1, flexDirection: 'column', justifyContent: 'space-between', alignItems: 'flex-start', backgroundColor: '#F5FCFF'}}>
+				<Text style={{ fontFamily: this.props.route.fontFamily, fontSize: 18, textAlign: 'center'}}>{this.props.route.fontFamily} - size: {this.state.fontSize}</Text>
+				<Slider 
+					style={{width:200, margin: 20, alignSelf: 'center'}}
+					minimumValue={1} 
+					maximumValue={100} 
+					step={1}
+					value={this.state.fontSize} 
+		            onValueChange={(value) => this.setState({fontSize: value})} />
+				<TextInput style={{flex: 1, fontFamily: this.props.route.fontFamily, fontSize: this.state.fontSize}} placeholder="Type your sample text here" multiline={true}/>
 			</View>
 		)
 	}
