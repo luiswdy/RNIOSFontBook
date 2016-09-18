@@ -1,13 +1,19 @@
 //@flow
 'use strict'
 import React, { Component } from 'react'
-import { View, Text, TextInput, Slider, Dimensions } from 'react-native'
+import { View, Text, TextInput, Slider, AsyncStorage } from 'react-native'
 
 class FontDetail extends Component {
 	constructor(props) {
 	  super(props);
 
 	  this.state = {fontSize: 16, };
+
+	AsyncStorage.getItem('@sample_text_key').then((value) => {
+		if (value !== null) {
+			this.setState({sampleText: value});
+		}
+	}).done()
 	}
 
 	render() {
@@ -21,7 +27,7 @@ class FontDetail extends Component {
 					step={1}
 					value={this.state.fontSize} 
 		            onValueChange={(value) => this.setState({fontSize: value})} />
-				<TextInput style={{flex: 1, fontFamily: this.props.route.fontFamily, fontSize: this.state.fontSize}} placeholder="Type your sample text here" multiline={true}/>
+				<TextInput style={{flex: 1, fontFamily: this.props.route.fontFamily, fontSize: this.state.fontSize }} placeholder="Type your sample text here" multiline={true} value={this.state.sampleText}/>
 			</View>
 		)
 	}

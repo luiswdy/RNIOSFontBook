@@ -26,7 +26,7 @@ class SettingView extends Component {
 	render()  {
 		return (
 			<View style={{flex: 1, flexDirection: 'column', justifyContent:'flex-start'}} >
-				<TextInput style={{flex: 1, padding: 15 }} placeholder="Type your default sample text"  multiline={true} clearButtonMode={'always'}
+				<TextInput style={{ padding: 15 , height: 100}} placeholder="Type your default sample text"  multiline={true} clearButtonMode={'always'}
 				value={this.state.sampleText}
 				onChangeText={(text) => this.setState({sampleText: text})}/> 
 				<TouchableOpacity 

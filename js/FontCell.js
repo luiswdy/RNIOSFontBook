@@ -16,7 +16,9 @@ class FontCell extends Component {
     this.state = {sampleText: 'This is default sample text'};
     AsyncStorage.getItem('@sample_text_key')
       .then((value) => { 
-          this.setState({sampleText: value});
+          if (value !== null) {
+            this.setState({sampleText: value});
+          }
         }).done();
   }
 
