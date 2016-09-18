@@ -4,11 +4,22 @@ import React, { Component } from 'react'
 import {
   Text,
   TouchableOpacity,
+  AsyncStorage,
 } from 'react-native'
 import { NavIdxEnum } from './RNIOSFontBook'
 
 
 class FontCell extends Component {
+  constructor(props) {
+    super(props);
+  
+    this.state = {sampleText: 'This is default sample text'};
+    AsyncStorage.getItem('@sample_text_key')
+      .then((value) => { 
+          this.setState({sampleText: value});
+        }).done();
+  }
+
   render() {
     return (
       <TouchableOpacity style={ {borderBottomWidth: 1} } onPress={ () => {
@@ -18,7 +29,7 @@ class FontCell extends Component {
           {this.props.fontName}
         </Text>
         <Text style={ {padding: 5, fontFamily: this.props.fontName} }>
-          Sample text / 範例文字  
+          {this.state.sampleText}
         </Text>
       </TouchableOpacity>
     );
