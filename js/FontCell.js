@@ -27,7 +27,7 @@ class FontCell extends Component {
       <TouchableOpacity style={ {borderBottomWidth: 1} } onPress={ () => {
         this.props.navigator.push( {title: "Detail", index: NavIdxEnum.DetailIdx, fontFamily: this.props.fontName} ); 
       }}>
-        <Text style={ {padding: 5, fontFamily: this.props.fontName, fontSize: 18} }>
+        <Text style={ {padding: 5, fontSize: 18} }>
           {this.props.fontName}
         </Text>
         <Text style={ {padding: 5, fontFamily: this.props.fontName} }>
